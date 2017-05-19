@@ -1,0 +1,553 @@
+/*--------------------phone-------------------------*/
+@media screen and (max-width:480px) {
+    
+     .fixed-width {
+        width: 100%;
+        padding:0px 10px 0px 10px;
+    }
+    .col-3 {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-4 {
+        width:100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+      header {
+        height: 600px;
+        background-image: url(images/imbtBG01.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        transition: linear 2s;
+        display: table;
+    }
+    header .overlay {
+        height: 600px;
+        background-color: rgba(0, 0, 0, .4);
+        display: table-cell;
+        vertical-align: middle;
+    }
+    header .content {
+        color: #fff;
+        /*            width: 400px;*/
+        margin: auto;
+        text-align: center;
+    }
+    header .content h1 {
+        font-size: 60px;
+    }
+    header .content a {
+        display: inline-block;
+        width: 160px;
+        color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #ff004e;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+         background-image: url(../images/aboutBG-01.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+    #about h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #about .col-3 {
+        padding: 40px 15px 15px 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: #fff;
+        box-shadow:2px 2px 2px 2px #ededed;
+    }
+    #about .col-3 h3 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #about .col-3 p {
+        line-height: 2em;
+        opacity: .8;
+    }
+    #works {
+        padding-top: 100px;
+        padding-bottom: 100px;
+         background-image: url(../images/imbtBG02.jpg);
+        background-repeat: no-repeat;
+/*        background-attachment: fixed;*/
+        background-size: cover;
+        background-color: #333;
+        text-align: center;
+        color:#fff;
+    }
+
+     #works p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #works .col-3 {
+       background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+     #works .col-3 h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#333;
+    }
+     #works .col-3 img{
+        overflow: hidden;
+        width: 100%;
+    }
+    /*
+    #works h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+*/
+   
+    
+    #service {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+        background-image: url(../images/serviceBG-01.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #fff;
+        
+    }
+    #service p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #service .gallery {
+        overflow: hidden;
+        height: 280px;
+    }
+    #service img {
+        width: 80%;
+        margin: auto;
+        
+    }
+    #service .col-4 {
+        margin-bottom: 30px;
+    }
+    #service .col-4 p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        opacity: .8;
+    }
+    #service .col-4 h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #service .col-4 .social a {
+        text-decoration: none;
+        color: #000;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}
+
+
+/*------------------------平板區塊靠左對齊------------------------------*/
+@media screen and (min-width:820px) {
+    .col-3 , .col-4 {
+        float: left;
+    }
+}
+
+
+
+/*------------------------pad------------------------------*/
+
+@media screen and (min-width:480px) and (max-width:1200px) {
+    
+     .fixed-width {
+        width: 100%;
+        padding:0px 10px 0px 10px;
+         text-align: center;
+        
+    }
+    .col-3 {
+        display: inline-block;
+        width: 370px;
+        margin: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-4 {
+        display: inline-block;
+        width: 370px;
+        margin: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .center-box{
+        padding: 0px;
+        margin: auto;
+        max-width: 800px;
+        text-align: center;
+        
+    }
+    
+     header {
+        height: 650px;
+        background-image: url(images/imbtBG01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: auto;
+        transition: linear 2s;
+        display: table;
+    }
+    header .overlay {
+        height: 500px;
+        background-color: rgba(0, 0, 0, .4);
+        display: table-cell;
+        vertical-align: middle;
+    }
+    header .content {
+        width: 100%;
+        color: #fff;
+/*      width: 400px;*/
+        margin: auto;
+        text-align: center;
+    }
+    header .content h1 {
+        font-size: 60px;
+        margin: 15px;
+    }
+    header .content a {
+        display: inline-block;
+        width: 160px;
+        color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #ff004e;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(../images/aboutBG-01.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
+    #about h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #about .col-3 {
+        margin-top: 30px;
+        padding-top: 70px;
+        background-color: #fff;
+        box-shadow:2px 2px 2px 2px #ededed;
+    }
+    #about .col-3 h3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #about .col-3 p {
+        height: 150px;
+        line-height: 2em;
+        opacity: .8;
+    }
+    #works {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(../images/imbtBG02.jpg);
+        background-repeat: no-repeat;
+/*        background-attachment: fixed;*/
+        background-size: cover;
+        background-color: #333;
+        color: #333;
+        text-align: center;
+    }
+    
+    #works h2,#works p{
+        color:#fff;
+    }
+    
+    
+    
+    #works .col-3 {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 15px;
+        padding: 0;
+    }
+    #works .col-3:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+    }
+    
+    
+    
+    #works .col-3 img{
+        overflow: hidden;
+        width: 100%;
+    }
+   
+    #works p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+
+    #works h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#7b7b7b;
+    }
+    #service {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(../images/serviceBG-01.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #fff;
+        text-align: center;
+       
+    }
+    
+    #service col-4 {
+        height: 300px;
+    }
+    #service p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #service .gallery {
+        overflow: hidden;
+       
+    }
+    #service img {
+        width: 100%;
+        
+    }
+    #service .col-4 p {
+        display: inline;
+
+    }
+    
+    
+    #service .col-4 h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #service .col-4 .social a {
+        text-decoration: none;
+        color: #000;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}
+
+
+
+/*------------------------desktop------------------------------*/
+@media screen and (min-width:1200px) {
+    
+     .fixed-width {
+        width: 1200px;
+        margin: auto;
+    }
+    .col-3 {
+        float: left;
+        width: 370px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-4 {
+        float: left;
+        width: 280px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header {
+        height: 750px;
+        background-image: url(images/imbtBG01.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        transition: linear 2s;
+        display: table;
+    }
+    header .overlay {
+        height: 750px;
+        background-color: rgba(0, 0, 0, .4);
+        display: table-cell;
+        vertical-align: middle;
+    }
+    header .content {
+        width: 800px;
+        color: #fff;
+        /*            width: 400px;*/
+        margin: auto;
+        text-align: center;
+    }
+    header .content h1 {
+        font-size: 80px;
+        margin: 15px;
+    }
+    header .content a {
+        display: inline-block;
+        width: 160px;
+        color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #ff004e;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    #about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+        background-image: url(../images/aboutBG-01.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #f2f2f2;
+    }
+    #about h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #about .col-3 {
+        margin-top: 30px;
+        padding-top: 70px;
+        background-color: #fff;
+        box-shadow:2px 2px 2px 2px #ededed;
+    }
+    #about .col-3 h3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #about .col-3 p {
+        height: 150px;
+        line-height: 2em;
+        opacity: .8;
+    }
+    #works {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(../images/worksBG.jpg);
+        background-repeat: no-repeat;
+/*        background-attachment: fixed;*/
+        background-size: cover;
+        background-color: #333;
+        color: #333;
+        text-align: center;
+    }
+    
+    #works h2,#works p{
+        color:#fff;
+    }
+    
+    
+    
+    #works .col-3 {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 15px;
+        padding: 0;
+    }
+    #works .col-3:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+    }
+    
+    
+    
+    #works .col-3 img{
+        overflow: hidden;
+        width: 100%;
+    }
+   
+    #works p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+
+    #works h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#555;
+    }
+    #service {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url(../images/serviceBG-01.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #fff;
+        text-align: center;
+        height: 600px;
+    }
+    
+    #service col-4 {
+        height: 300px;
+    }
+    #service p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #service .gallery {
+        overflow: hidden;
+       
+    }
+    #service img {
+        width: 100%;
+        
+    }
+    #service .col-4 p {
+        display: none;
+/*
+        padding-top: 10px;
+        padding-bottom: 10px;
+*/
+        opacity: .8;
+        transition: linear 2s;
+    }
+    
+    #service .col-4:hover > p {
+        display: inline;
+        
+    }
+    
+    #service .col-4 h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #service .col-4 .social a {
+        text-decoration: none;
+        color: #000;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}

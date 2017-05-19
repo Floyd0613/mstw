@@ -1,0 +1,51 @@
+/*------------------global------------------*/
+
+body{
+     background-image: url(../images/about_image/aboutBG-01.png);
+}
+
+.underCons {
+    
+     max-width: 700px;
+     padding: 75px 0px;
+     margin: auto;
+       
+    }
+
+.underCons img {
+    width: 100%;
+}
+
+/*----------------phone--------------------*/
+@media screen and (max-width:480px){
+    
+    .fixed-width {
+        width: 100%;
+        text-align: center;
+        padding:0px 10px;
+    }
+    
+}
+/*-----------------pad--------------------*/
+@media screen and (min-width:480px) and (max-width:1200px) {
+    
+     .fixed-width {
+/*        width: 100%;*/
+        padding:0px 10px 0px 10px;
+         text-align: center;
+        
+    }
+    
+}
+/*---------------desktop------------------*/
+@media screen and (min-width:1200px) {
+    
+    .fixed-width {
+        width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px;
+        
+    }
+    
+}
